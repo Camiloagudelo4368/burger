@@ -35,7 +35,7 @@ router.post("/api/burger", (req, res) => {
     // console.log(burger_name)
 
     burger.create(burger_name, 0, result => {
-        res.redirect("../" );
+        res.redirect("/" );
     })
 })
 
