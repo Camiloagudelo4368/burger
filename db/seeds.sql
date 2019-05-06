@@ -1,4 +1,4 @@
-INSERT INTO burgers_db (burger_name, devoured)
+INSERT INTO burgers (burger_name, devoured)
 VALUES 
 ("Bacon burger", 0),
 ("Cheese burger", 0),

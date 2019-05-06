@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./Eat-Da-Burger!_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Eat-Da-Burger!_files/burger_style.css">
+
+    <link rel="icon" href="./Eat-Da-Burger!_files/eatBurger.png" type="image/x-icon">
+
+    <title>Eat-Da-Burger!</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Eat-Da-Burger!</h1>
+        </header>
+        <div class="row justify-content-center">
+    <div class="col">
+        <img src="./Eat-Da-Burger!_files/burger.png">
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+        <br>
+        <form action="http://localhost:3000/api/burger" method="post">
+            <div class="input-group mb-3">
+                <input name="burger_name" type="text" class="form-control" placeholder="Enter your most desired burger" required="" aria-label="Type your most wished burger" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline" type="submit" id="btnSubmit"><img src="./Eat-Da-Burger!_files/plus.svg"></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div class="row justify-content-center">
+    <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+        <h5>Eat one please</h5>
+        <div class="divList">
+            <div class="input-group">
+                <div class="form-control text-left burger_name">
+                    46. /a.SSANJD
+                </div>
+                <div class="align-middle">
+                    <button class="btn btn-outline btnDevour" style="padding: 4px 3px 0 0; border:none" type="button"><img data-id="46" src="./Eat-Da-Burger!_files/eatBurger.png" title="Eat this burger"></button>
+                </div>
+            </div>
+        </div>
+        <div class="divList">
+            <div class="input-group">
+                <div class="form-control text-left burger_name">
+                    45. cheese burger 2
+                </div>
+                <div class="align-middle">
+                    <button class="btn btn-outline btnDevour" style="padding: 4px 3px 0 0; border:none" type="button"><img data-id="45" src="./Eat-Da-Burger!_files/eatBurger.png" title="Eat this burger"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+        <h5> You eat this burgers</h5>
+        <div class="divList">
+            <div class="input-group">
+                <div class="form-control text-left burger_name">
+                    47. .SAKLQW
+                </div>
+                <div>
+                    <button class="btn btn-outline btnDelete" style="padding: 4px 0 0 0;  border:none" type="button"><img data-id="47" src="./Eat-Da-Burger!_files/close.svg" title="Remove burger"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <!-- JQuery for Bootsatrap -->
+    <script src="./Eat-Da-Burger!_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./Eat-Da-Burger!_files/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./Eat-Da-Burger!_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script src="./Eat-Da-Burger!_files/jquery.min.js"></script>
+
+    <!-- Aplication js -->
+    <script src="./Eat-Da-Burger!_files/index.js"></script>
+
+
+
+</body></html>
